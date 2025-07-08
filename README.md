@@ -38,8 +38,7 @@ A Recurrent Neural Network (RNN) model trained on fashion-related data (e.g. cus
 5. Lemmatization using WordNetLemmatizer
 6. Uses TensorFlow/Keras to:
 Tokenize and pad sequences
-Build and train a neural network (RNN/LSTM likely in later cells)
-Goal: Classify text into categories (e.g., sentiment: Positive/Negative, or product type)
+Build and train a neural network (RNN/LSTM likely in later cells).
 
 **rnn_master_card.ipynb**
 This project involves time series data preprocessing, modeling, and evaluation using deep learning techniques in Python. The script begins by importing essential libraries for data handling, visualization, preprocessing, modeling, and evaluation.
