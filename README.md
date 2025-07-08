@@ -1,6 +1,6 @@
 _Project Description_
 
-**cnn_mnist.ipynb: **
+**cnn_mnist.ipynb**
 This project builds a Convolutional Neural Network (CNN) to classify handwritten digits using the MNIST dataset. It demonstrates the full image classification pipeline, including data preprocessing, model architecture, training, and evaluation.
 Project Workflow
 
@@ -16,7 +16,7 @@ Dense (fully connected) layers
 6. Compile and train the model using categorical crossentropy loss.
 7. Evaluate the model’s accuracy on the test set and make predictions.
 
- ** nltk_sentiment_analysis.ipynb **
+ **nltk_sentiment_analysis.ipynb**
  This project performs sentiment analysis on Hindi text by following these key steps:
 
 1. Loads Hindi sentences from a text file (SampleHindiText.txt).
@@ -28,7 +28,7 @@ Positive (compound score ≥ 0.05)
 Negative (compound score ≤ -0.05)
 Neutral (otherwise)
 
-** rnn_clothing.ipynb **
+**rnn_clothing.ipynb**
 A Recurrent Neural Network (RNN) model trained on fashion-related data (e.g. custom clothing dataset).
 
 1. Processes raw text data (e.g., product reviews in clothing domain).
@@ -41,7 +41,7 @@ Tokenize and pad sequences
 Build and train a neural network (RNN/LSTM likely in later cells)
 Goal: Classify text into categories (e.g., sentiment: Positive/Negative, or product type)
 
-** rnn_master_card.ipynb **
+**rnn_master_card.ipynb**
 This project involves time series data preprocessing, modeling, and evaluation using deep learning techniques in Python. The script begins by importing essential libraries for data handling, visualization, preprocessing, modeling, and evaluation.
 
 TensorFlow/Keras:
@@ -53,5 +53,5 @@ set_seed: For setting reproducible results using a random seed.
 Reproducibility
 A fixed random seed is set using set_seed and np.random.seed() to ensure consistent results across different runs.
 
-** tesseract_grayscale_conversion.ipynb **
+**tesseract_grayscale_conversion.ipynb**
 A basic image processing project that uses Tesseract OCR to extract text from grayscale images. Includes image-to-text conversion techniques and grayscale preprocessing steps.
