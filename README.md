@@ -21,9 +21,9 @@ Dense (fully connected) layers
 
 1. Loads Hindi sentences from a text file (SampleHindiText.txt).
 2. Translates each sentence from Hindi to English using the GoogleTranslator from the deep_translator library.
-3.Analyzes the translated English text using the VADER SentimentIntensityAnalyzer from the vaderSentiment package.
-4.Prints the translated sentence along with a dictionary of sentiment scores (compound, neg, neu, pos).
-5.Classifies each sentence as:
+3. Analyzes the translated English text using the VADER SentimentIntensityAnalyzer from the vaderSentiment package.
+4. Prints the translated sentence along with a dictionary of sentiment scores (compound, neg, neu, pos).
+5. Classifies each sentence as:
 Positive (compound score ≥ 0.05)
 Negative (compound score ≤ -0.05)
 Neutral (otherwise)
